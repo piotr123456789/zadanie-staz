@@ -1,0 +1,178 @@
+
+/* reset css */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+p{
+
+    padding:12px;
+}
+
+/* end-reset */
+
+*{
+
+    box-sizing: border-box;
+}
+
+.container{
+
+display: flex;
+flex: wrap;
+background-color: rgba(224, 221, 224, 0.87);
+width: 100%;
+
+}
+
+.col-2{  width:20%;  }
+.col-3{  width:30%;  }
+.col-4{  width:40%;  }
+.col-6{  width:60%;  }
+.col-8{  width:70%;  }
+.col-10{  width:80%; }
+.col-12{  width:100%;   }
+
+.blue{
+background-color: rgb(254, 254, 255);
+}
+
+.position{
+
+top:0;
+left:0;
+position: sticky;
+
+}
+
+.margin{
+
+    margin: 20px auto;
+    padding: 10px;
+
+}
+.center{
+
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+padding: 5px;
+
+}
+
+.leng{
+
+height: 100vh;    
+
+}
+
+.blue{
+
+border-radius: 10px;
+box-shadow: 5px 5px 5px 5px rgb(129, 128, 128);
+background-color: rgb(251, 255, 254);
+
+}
+
+/*  style do zadania drugiego  */
+
+table{  width: 100%;   }
+
+td, th { border: 1px solid rgb(134, 133, 133); padding:5px; background-color: white;  font-size: 16px; }
+
+.thead tr th{
+    font-weight: 800;
+color: rgb(224, 216, 216);    
+background-color: rgb(48, 47, 47);
+
+}
+
+.supertext{
+
+height: 60px;
+margin-bottom: 10px;    
+background-color: rgb(250, 250, 250);
+font-weight: 700;
+color:black;
+font-size: 24px;
+border-right: 1px;
+
+}
+
+.provide{
+
+background-color: white;
+margin: 10px ;
+border: 1px solid black;
+padding: 10px;
+font-size: 24px;
+
+}
+
+.provide1{
+
+    background-color: white;
+    margin: 10px ;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 24px;
+    
+    }
+
+
+
+
+
+
+
+
+
+
+
+

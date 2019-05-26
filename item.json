@@ -1,0 +1,42 @@
+{
+    "posts": [
+        {
+            "title": "One",
+            "upvotes": 1234,
+            "score": 1000,
+            "num_comments": 100,
+            "created": "16.05.2019 12:12"
+        },
+        {
+            "title": "Two",
+            "upvotes": 1354,
+            "score": 800,
+            "num_comments": 80,
+            "created": "17.05.2019 12:12"
+        },
+        {
+            "title": "three",
+            "upvotes": 1605,
+            "score": 908,
+            "num_comments": 90,
+            "created": "12.05.2019 12:12"
+        },
+        {
+            "title": "four",
+            "upvotes": 1405,
+            "score": 960,
+            "num_comments": 90,
+            "created": "14.05.2019 12:12"
+        },
+        {
+            "title": "five",
+            "upvotes": 1205,
+            "score": 930,
+            "num_comments": 90,
+            "created": "19.05.2019 12:12"
+        }
+        
+    ],
+    "count": 10
+    }
+    
